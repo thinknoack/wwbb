@@ -13,7 +13,7 @@ Go through the install process to get your DB up and running. If no data base is
 	mysql> create database vagrant;
 	Query OK, 1 row affected (0.00 sec)
 
-	mysql> grant all on vagrant.* to vagrant@localhost identified by vagrant;
+	mysql> grant all privileges on 'vagrant'.* to 'vagrant'@'localhost' identified by 'uservagrant';
 
 
 
