@@ -31,7 +31,11 @@ Then run
 
 	node on simple-server.js > in wordpress/json-test
 
+this header has been added to allow for CORS > 
 
+  custom_fragment =>  'Header set Access-Control-Allow-Origin "*"',
+  
+  this would need to be added and checked for your production server enviornment. 
 
 
 
