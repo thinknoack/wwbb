@@ -7,20 +7,22 @@ This will get you setup with a vagrant environment.
 
 clone this repo and run vagrant up.
 
-Go through the install process to get your DB up and running. If no data base is installed. You may have to run
+create a database
 
 
 	mysql> create database vagrant;
-	Query OK, 1 row affected (0.00 sec)
 
-	mysql> grant all privileges on 'vagrant'.* to 'vagrant'@'localhost' identified by 'uservagrant';
+	mysql> grant all privileges on 'vagrant'.* to 'vagrant'@'localhost' identified by 'vagrant';
 
 
 
 	This is the key for the above. 
 	db * user pass
 	
-	
+
+delete all the files in the wordpress/ directory except the backbone directory
+
+visit the localhost
 	
 After you get setup with WP. Add some content. Add the JSON API plugin.
 
