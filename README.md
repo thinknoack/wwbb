@@ -5,7 +5,11 @@
 
 This will get you setup with a vagrant environment.
 
-clone this repo and run vagrant up.
+clone this repo and run 
+`vagrant up`
+`vagrant ssh` 
+
+and cd /server/htdocs
 
 create a database
 
