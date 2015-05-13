@@ -10,9 +10,10 @@ clone this repo and run vagrant up.
 create a database
 
 
-	mysql> create database vagrant;
-
-	mysql> grant all privileges on 'vagrant'.* to 'vagrant'@'localhost' identified by 'vagrant';
+	mysql> 
+	
+	create database vagrant;
+	GRANT ALL PRIVILEGES ON vagrant.* TO'vagrant'@'localhost' identified by 'vagrant';
 
 
 
